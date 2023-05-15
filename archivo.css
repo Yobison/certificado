@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #FFDCB6;
+}
+
+.encabezado {
+    background-color: #ECC9EE;
+    text-align: center;
+}
+
+#boton {
+    text-align: center;
+    padding: 10px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    border-bottom: none;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+#boton:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 400ms;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: azure;
+}
+
+.item1 {
+    padding-top: 10px;
+    background-color: #9384D1;
+    color: #19191a;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+}
+p {
+    margin: 8px;
+}
+
